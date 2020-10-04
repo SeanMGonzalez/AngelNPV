@@ -1,0 +1,29 @@
+
+cash:
+  market_salary: 200000 #, prompt='What yearly salary could you likely earn elsewhere? {$}')
+  venture_salary: 0 #, prompt='What yearly salary is your venture currently paying you? {$}')
+  projected_venture_salary: 350000 #, prompt='What maximum salary will your venture eventually pay you? {$}')
+  projected_time: 48 #, prompt='When do you believe you will receive this maximum salary? {months}')
+  runway: 24 #, prompt='What is your Runway? How many months can you currently go without a salary? {months}')
+
+equity:
+  your_percentage: 0.05 #, prompt='What percent equity have you earned? {%}')
+  pot_percentage: 0.2 #, prompt='What is your equity stake? What maximum percentage do you expect to vest? {%}')
+  your_schedule: 36 #, prompt='How many months are left until your equity is fully vested? {months}')
+  your_valuation: 60000000 #, prompt='If you stay and realize your vision, what is the potential valuation of this venture? {$}')
+  time2your_valuation: 36 #, prompt='When is this likely? {months}')
+  likely_market_valuation: 50000000 #, prompt='If you leave, what is the likely market valuation of this venture? {$}')
+  time2market_valuation: 60 #, prompt='When is this likely? {months}')
+
+ip:
+  contributing_ip: False #, prompt='Did the venture formally recognize your IP contributions when you started? {T/F}')
+  ip_rights: 0.8 #, prompt='Do you have rights to any IP you develop with the venture? {T/F}')
+  ip_init_cost: 1000000 #, prompt='How much would it cost you to recreate the IP capabilities from scratch? {$}')
+  ip_time2market: 36 #, prompt='How long would it take you to realize legal use of this IP? {months}')
+  ip_market_value: 10000000 #, prompt='What valuation would you assign legal use of this IP? {$}')
+  ip_hump_cost: 200000 #, prompt='How much would it cost you to realize this valuation? {$}')
+
+
+creative:
+  creative_freedom: 0.3 #, prompt='Do you have creative freedom at your current venture? How much? {%}')
+  freedom_elsewhere: 0.5 #, prompt='Can you get creative freedom somewhere else? How much? {%}')
